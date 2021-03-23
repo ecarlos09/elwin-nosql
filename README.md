@@ -13,6 +13,7 @@ To try the helper functions:
 
 - `load('code/data/helpers.js')`
 - Type the function name into the mongo shell
+    - `getCelebNamesOnly()` will display just the names of all the celebrities in the database
 
 To exit the mongo shell:
 
