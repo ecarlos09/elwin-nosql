@@ -33,10 +33,10 @@ I used these study notes to help me with the tasks (outlined below)
 
 Complete these first in MongoDB and if time allows, recreate with an alternative NoSQL solution.
 
-- [ ] Create a database to store data about celebrities:
-  - [ ] Include their name, age and birthplace
-  - [ ] If appropriate, include data on relationship status, children, awards, acheivements
-  - [ ] Do not follow a strict schema, be flexible on the data provided dependent on the celebrity
+- [x] Create a database to store data about celebrities:
+  - [x] Include their name, age and birthplace
+  - [x] If appropriate, include data on relationship status, children, awards, acheivements
+  - [x] Do not follow a strict schema, be flexible on the data provided dependent on the celebrity
 - [ ] Craft queries to return:
 
   - [ ] names of all celebrities in database
