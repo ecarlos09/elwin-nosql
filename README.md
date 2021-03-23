@@ -11,7 +11,8 @@ In this repo, I will be creating a databse that stores information about celebri
 
 To try the helper functions:
 
-- ...Add instruction here once finished
+- `load('code/data/helpers.js')`
+- Type the function name into the mongo shell
 
 To exit the mongo shell:
 
@@ -39,7 +40,7 @@ Complete these first in MongoDB and if time allows, recreate with an alternative
   - [x] Do not follow a strict schema, be flexible on the data provided dependent on the celebrity
 - [ ] Craft queries to return:
 
-  - [ ] names of all celebrities in database
+  - [x] names of all celebrities in database
   - [ ] number of celebrities in database who have children
   - [ ] summary of total number of awards won grouped by birthplace
 
