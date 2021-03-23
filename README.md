@@ -13,7 +13,10 @@ To try the helper functions:
 
 - `load('code/data/helpers.js')`
 - Type the function name into the mongo shell
+    - `getAndPrettifyCelebs()` returns all celebs in a prettified format
     - `getCelebNamesOnly()` will display just the names of all the celebrities in the database
+    - `getCelebsWithChildren()` returns all celebs that have children
+    - `countCelebsWithChildren()` counts the number of celebs who have children
 
 To exit the mongo shell:
 
@@ -42,7 +45,7 @@ Complete these first in MongoDB and if time allows, recreate with an alternative
 - [ ] Craft queries to return:
 
   - [x] names of all celebrities in database
-  - [ ] number of celebrities in database who have children
+  - [x] number of celebrities in database who have children
   - [ ] summary of total number of awards won grouped by birthplace
 
 - [ ] Design some more queries!
