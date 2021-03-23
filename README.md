@@ -7,7 +7,7 @@ In this repo, I will be creating a databse that stores information about celebri
 - clone this repo & `cd elwin-nosql`
 - `docker run --name celeb-db --mount type=bind,source="$(pwd)",dst="/code" -d mongo`
 - `docker exec -it celeb-db mongo` (to open the mongo shell)
-- `load('code/db/setup.js')`
+- `load('code/data/setup.js')`
 
 To try the helper functions:
 
