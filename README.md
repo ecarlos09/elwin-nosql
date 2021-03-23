@@ -7,11 +7,16 @@ In this repo, I will be creating a databse that stores information about celebri
 - clone this repo & `cd elwin-nosql`
 - `docker run --name celeb-db --mount type=bind,source="$(pwd)",dst="/code" -d mongo`
 - `docker exec -it celeb-db mongo` (to open the mongo shell)
-- `load('code/db/setup.js')`
+- `load('code/data/setup.js')`
 
 To try the helper functions:
 
-- ...Add instruction here once finished
+- `load('code/data/helpers.js')`
+- Type the function name into the mongo shell
+    - `getAndPrettifyCelebs()` returns all celebs in a prettified format
+    - `getCelebNamesOnly()` will display just the names of all the celebrities in the database
+    - `getCelebsWithChildren()` returns all celebs that have children
+    - `countCelebsWithChildren()` counts the number of celebs who have children
 
 To exit the mongo shell:
 
@@ -33,14 +38,14 @@ I used these study notes to help me with the tasks (outlined below)
 
 Complete these first in MongoDB and if time allows, recreate with an alternative NoSQL solution.
 
-- [ ] Create a database to store data about celebrities:
-  - [ ] Include their name, age and birthplace
-  - [ ] If appropriate, include data on relationship status, children, awards, acheivements
-  - [ ] Do not follow a strict schema, be flexible on the data provided dependent on the celebrity
+- [x] Create a database to store data about celebrities:
+  - [x] Include their name, age and birthplace
+  - [x] If appropriate, include data on relationship status, children, awards, acheivements
+  - [x] Do not follow a strict schema, be flexible on the data provided dependent on the celebrity
 - [ ] Craft queries to return:
 
-  - [ ] names of all celebrities in database
-  - [ ] number of celebrities in database who have children
+  - [x] names of all celebrities in database
+  - [x] number of celebrities in database who have children
   - [ ] summary of total number of awards won grouped by birthplace
 
 - [ ] Design some more queries!
