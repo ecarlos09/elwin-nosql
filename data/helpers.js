@@ -14,7 +14,7 @@ function getCelebNamesOnly() {
 
 function getCelebsWithChildren() {
     let celebsWithChildren = db.celebs.find({
-        children: {$ne: 0} 
+        children: {$ne: [ ]} 
     })
     return celebsWithChildren.pretty();
 }
